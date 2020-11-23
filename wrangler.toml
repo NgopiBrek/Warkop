@@ -1,0 +1,13 @@
+name = "aep-my-id"
+type = "javascript"
+account_id = "dfe78c1798e248b4c939a33313d0d70c"
+workers_dev = true
+
+[env.production]
+workers_dev = false
+route = "https://a.idan.my.id/*"
+zone_id = "895e17b57d742fe70252f60400ddf791"
+
+[site]
+bucket = "./"
+entry-point = "workers-site"
